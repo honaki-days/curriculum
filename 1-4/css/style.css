@@ -1,0 +1,151 @@
+/*-----------------------------------
+共通箇所
+-----------------------------------*/
+.container {
+  width: 400px;
+}
+
+/*-----------------------------------
+first--stage
+-----------------------------------*/
+.first--stage {
+  height: 100px;
+  background-color: #141f40;
+}
+
+/*-----------------------------------
+second--stage
+-----------------------------------*/
+.second--stage {
+
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.second--stage__left {
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+  float: left;
+}
+
+.second--stage__right {
+  
+}
+
+.second--stage__right--orange {
+  width: 100px;
+  height: 150px;
+  background-color: #ff9e6b;
+  float: right;
+}
+
+.second--stage__right--yellow {
+  width: 150px;
+  height: 50px;
+  background-color: #dbd400;
+  float: left;
+}
+
+.second--stage__right--blue {
+  width: 150px;
+  height: 100px;
+  background-color: #0093b7;
+  float: left;
+}
+
+.second--stage__right--brown {
+  width: 250px;
+  height: 100px;
+  background-color: #8c2727;
+  float: right;
+}
+
+/*-----------------------------------
+last--stage
+-----------------------------------*/
+.last--stage {
+  height: 100px;
+  background-color: #d98d30;
+}
+
+
+/*-----------------------------------
+レスポンシブ(767px)
+-----------------------------------*/
+@media screen and (max-width: 767px) {
+
+  /*-----------------------------------
+  共通箇所
+  -----------------------------------*/
+  .container {
+    width: 300px;
+  }
+
+  /*-----------------------------------
+  second--stage
+  -----------------------------------*/
+  .second--stage__left {
+    width: 100px;
+  }
+
+
+  .second--stage__right--orange {
+    width: 75px;
+  }
+
+  .second--stage__right--yellow {
+    width: 125px;
+  }
+
+  .second--stage__right--blue {
+    width: 125px;
+  }
+
+  .second--stage__right--brown {
+    width: 200px;
+  }
+}
+
+/*-----------------------------------
+レスポンシブ(497px)
+-----------------------------------*/
+@media screen and (max-width: 497px) {
+
+  /*-----------------------------------
+  共通箇所
+  -----------------------------------*/
+  .container {
+    width: 150px;
+  }
+
+  /*-----------------------------------
+  second--stage
+  -----------------------------------*/
+  .second--stage__left {
+    width: 150px;
+    height: 100px;
+  }
+
+
+  .second--stage__right--orange {
+    width: 150px;
+    height: 100px;
+  }
+
+  .second--stage__right--yellow {
+    width: 150px;
+  }
+
+  .second--stage__right--blue {
+    width: 150px;
+  }
+
+  .second--stage__right--brown {
+    width: 150px;
+  }
+}
