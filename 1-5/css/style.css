@@ -74,7 +74,7 @@ second--stage
   height: 50px;
   box-sizing: border-box;
   background-color: #ff863f;
-  border: 10px solid #fff;
+  border: 5px solid #fff;
   margin-bottom: 10px;
 }
 
@@ -83,7 +83,7 @@ second--stage
   height: 50px;
   box-sizing: border-box;
   background-color: #ff863f;
-  border: 10px solid #fff;
+  border: 5px solid #fff;
   margin-bottom: 10px;
 }
 
@@ -92,7 +92,7 @@ second--stage
   height: 50px;
   box-sizing: border-box;
   background-color: #ff863f;
-  border: 10px solid #fff;
+  border: 5px solid #fff;
 }
 
 /* ----------------------------------------------
@@ -128,6 +128,10 @@ last--stage
     flex-direction: column;
     position: static;
     margin-top: 20px;
+  }
+
+  .first--stage--white--red__1 {
+    margin: 10px;
   }
 
   .first--stage--white--red__2 {
