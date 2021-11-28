@@ -1,0 +1,145 @@
+/* ------------------------------------
+共通
+------------------------------------ */
+body {
+  width: 400px;
+}
+
+/* ------------------------------------
+header
+------------------------------------ */
+header {
+  width: 400px;
+  height: 100px;
+  background-color: #141f40;
+}
+
+/* ------------------------------------
+main
+------------------------------------ */
+
+main {
+  height: 250px;
+  display: flex;
+}
+
+/* ------------------------------------
+footer
+------------------------------------ */
+
+footer {
+  width: 400px;
+  height: 100px;
+  background-color: #d98d30;
+}
+
+hr {
+  margin: 30px;
+}
+
+/* ------------------------------------
+1個目
+------------------------------------ */
+
+
+/* ------------------------------------
+main
+------------------------------------ */
+
+.main__left {
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+}
+
+.main__right {
+  width: 150px;
+}
+
+.main__right__blue {
+  width: 250px;
+  height: 100px;
+  background-color: #0093b7;
+}
+
+.main__right__down {
+  display: flex;
+}
+
+.main__right__down__left {
+  width: 100px;
+}
+
+.main__right__down--yellow {
+  width: 100px;
+  height: 150px;
+  background-color: #dbd403;
+}
+
+.main__right__down__right {
+  width: 150px;
+}
+
+.main__right__down--orange {
+  width: 150px;
+  height: 50px;
+  background-color: #ff9e6b;
+}
+
+.main__right__down--brown {
+  width: 150px;
+  height: 100px;
+  background-color: #8c2727;
+}
+
+
+/* ------------------------------------
+2個目
+------------------------------------ */
+/* ------------------------------------
+main
+------------------------------------ */
+#main__left {
+  width: 250px;
+  height: 250px;
+}
+
+#main__left__top {
+  width: 250px;
+  height: 150px;
+  display: flex;
+}
+
+#main__left__left {
+  width: 100px;
+  height: 150px;
+  background-color: #dbd403;
+}
+
+#main__left__right {
+
+}
+
+#main__left__right--brown {
+  width: 150px;
+  height: 50px;
+  background-color: #8c2727;
+}
+
+#main__left__right--orange {
+  width: 150px;
+  height: 100px;
+  background-color: #ff9e6b;
+}
+
+#main__right__blue {
+  width: 250px;
+  height: 100px;
+  background-color: #0093b7;
+}
+
+#main__right {
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+}
