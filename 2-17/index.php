@@ -2,18 +2,18 @@
   //ループ文 × 条件分岐
 
   $total = 0;
-
-  for($i = 1; $i <= 40; $i++) {
+  $num = 1; 
+  do {
     $random = rand(1, 6);
     $total += $random;
-    echo "{$i}回目={$random}";
+    echo "{$num}回目={$random}";
     echo '<br>';
-
     if($total >= 40) {
-      echo "合計{$i}回でゴールしました。";
+      echo "合計{$num}回でゴールしました。";
       break;
     }
-  }
+    $num++; 
+  } while($total <= 40);
 ?>
 
 <?php
