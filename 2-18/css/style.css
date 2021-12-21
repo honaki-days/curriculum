@@ -1,0 +1,45 @@
+body {
+  background: gray;
+  width: 1300px;
+  height: 1000px;
+  color: #fff;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.strat__title {
+  border-bottom: 3px solid white;
+  padding: 90px 0 10px;
+}
+
+.start {
+  width: 1000px;
+  height: 1000px;
+}
+
+.start__test {
+  margin-top: 40px;
+  text-align: center;
+}
+
+/*---------------------------------
+question
+---------------------------------*/
+.center {
+  text-align: center;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+.font-size {
+  font-size: 28px;
+}
+
+/*---------------------------------
+answer
+---------------------------------*/
