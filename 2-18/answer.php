@@ -57,3 +57,20 @@ function scring($X, $Y) {
 </html>
 
 
+
+<?php 
+/*PHP hiddenで入力データを複数ページに渡って送る
+https://noumenon-th.net/programming/2016/01/15/hidden/
+
+ラジオボタンを使ってみる
+https://vesna-memo.com/?p=920
+
+foreach と type="radio" の共存の仕方
+https://qiita.com/BazTOK53xmAyLO6/items/07536f11fefac3033abe
+
+開発日記・備忘録
+https://nakaya0611.hatenadiary.org/entry/20090608/1244461642
+
+関数の使い方
+https://www.javadrive.jp/php/function/index1.html
+?>

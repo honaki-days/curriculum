@@ -3,7 +3,7 @@
 
   $total = 0;
   $num = 1; 
-  do {
+  while($total <= 40) {
     $random = rand(1, 6);
     $total += $random;
     echo "{$num}回目={$random}";
@@ -13,7 +13,7 @@
       break;
     }
     $num++; 
-  } while($total <= 40);
+  };
 ?>
 
 <?php
